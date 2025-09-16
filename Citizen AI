@@ -82,17 +82,4 @@ with gr.Blocks() as app:
 
 app.launch(share=True)
 
-#output
-#Fetching 2 files: 100%
- 2/2 [01:29<00:00, 89.62s/it]
-model-00001-of-00002.safetensors: 100%
- 5.00G/5.00G [01:29<00:00, 58.5MB/s]
-Loading checkpoint shards: 100%
- 2/2 [00:23<00:00,  9.92s/it]
-generation_config.json: 100%
- 137/137 [00:00<00:00, 16.0kB/s]
-Colab notebook detected. To show errors in colab notebook, set debug=True in launch()
-* Running on public URL: https://b865134b1e81ea41c1.gradio.live
-
-This share link expires in 1 week. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)
 
